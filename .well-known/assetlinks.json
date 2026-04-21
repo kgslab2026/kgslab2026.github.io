@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.kgslab2026.ncna",
+    "sha256_cert_fingerprints": ["38:57:A9:E7:21:5B:A2:69:CA:CA:79:6A:9F:72:99:B4:B9:C8:D8:41:61:77:9F:A2:A8:3C:E0:40:AD:C4:DC:4C"]
+  }
+}]
