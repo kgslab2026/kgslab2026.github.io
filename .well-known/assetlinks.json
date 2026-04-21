@@ -5,4 +5,12 @@
     "package_name": "com.kgslab2026.ncna",
     "sha256_cert_fingerprints": ["51:31:99:30:C8:FA:14:B0:A7:8B:3F:D9:C3:B2:C6:C8:58:11:62:60:13:AF:BD:F9:C6:DE:16:D2:FD:0E:71:F6"]
   }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.kgslab2026.bodyage",
+    "sha256_cert_fingerprints": ["CB:0E:86:D2:7F:13:C0:16:BE:33:EC:DC:AF:11:89:45:73:2D:5C:5E:7D:BC:7E:24:D5:2A:60:D1:9F:03:39:5B"]
+  }
 }]
