@@ -3,6 +3,6 @@
   "target": {
     "namespace": "android_app",
     "package_name": "com.kgslab2026.ncna",
-    "sha256_cert_fingerprints": ["38:57:A9:E7:21:5B:A2:69:CA:CA:79:6A:9F:72:99:B4:B9:C8:D8:41:61:77:9F:A2:A8:3C:E0:40:AD:C4:DC:4C"]
+    "sha256_cert_fingerprints": ["51:31:99:30:C8:FA:14:B0:A7:8B:3F:D9:C3:B2:C6:C8:58:11:62:60:13:AF:BD:F9:C6:DE:16:D2:FD:0E:71:F6"]
   }
 }]
