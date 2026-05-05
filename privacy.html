@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>개인정보처리방침 — 우리집 텃밭</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+      font-size: 15px;
+      color: #1a1a1a;
+      background: #f9fbf9;
+      padding: 24px 20px 60px;
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 28px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid #4a7c59;
+    }
+    header .icon { font-size: 28px; }
+    header h1 { font-size: 20px; font-weight: 800; color: #4a7c59; }
+    .summary-box {
+      background: #e8f5e9;
+      border-left: 4px solid #4a7c59;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 28px;
+      font-size: 14px;
+      color: #2e5e3e;
+    }
+    .summary-box strong { display: block; margin-bottom: 4px; font-size: 13px; }
+    .updated {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #4a7c59;
+      margin: 28px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #d0e8d8;
+    }
+    p { margin-bottom: 10px; color: #333; }
+    ul { padding-left: 20px; margin-bottom: 10px; }
+    ul li { margin-bottom: 6px; color: #333; }
+    .sub-note {
+      font-size: 13px;
+      color: #666;
+      background: #f5f5f5;
+      border-radius: 6px;
+      padding: 10px 14px;
+      margin-top: 8px;
+    }
+    a { color: #4a7c59; }
+    footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid #ddd;
+      font-size: 13px;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <span class="icon">🌱</span>
+    <h1>우리집 텃밭 — 개인정보처리방침</h1>
+  </header>
+
+  <p class="updated">최종 업데이트: 2026년 5월 5일</p>
+
+  <div class="summary-box">
+    <strong>한 줄 요약</strong>
+    우리집 텃밭은 텃밭 기록과 사진을 사용자의 기기에 저장하며,
+    날씨/지도/분양 정보 조회를 위해 외부 서비스(예: 카카오맵) 및 공공 API와 통신할 수 있습니다.
+  </div>
+
+  <h2>1. 수집하는 정보</h2>
+  <p>본 앱은 다음의 데이터만 사용합니다.</p>
+  <ul>
+    <li>텃밭 구성 정보 (심은 채소, 심은 날짜, 수확 예정일, 물준 날짜)</li>
+    <li>성장 기록 (메모, 사진, 기록 일시)</li>
+    <li>사용자 정의 작물 정보</li>
+    <li>날씨 조회를 위한 현재 위치 (앱 실행 중 일시적으로만 사용)</li>
+  </ul>
+  <div class="sub-note">
+    위 데이터(텃밭 구성, 성장 기록, 사용자 정의 작물)는 기기 내 로컬 저장소(localStorage)에 저장됩니다.
+    위치 정보는 날씨 정보 표시 목적으로만 사용되며, 앱 내부에 별도로 저장하지 않습니다.
+  </div>
+
+  <h2>2. 수집하지 않는 정보</h2>
+  <ul>
+    <li>이름, 이메일, 전화번호 등 개인 식별 정보</li>
+    <li>기기 고유 식별자</li>
+    <li>광고 식별자</li>
+    <li>촬영한 사진의 위치 메타데이터 (EXIF)</li>
+  </ul>
+
+  <h2>3. 권한 사용 목적</h2>
+  <ul>
+    <li><strong>위치 권한</strong> — 현재 위치 기반 날씨 정보 표시에만 사용. 위치 데이터는 저장하지 않습니다.</li>
+    <li><strong>카메라 권한</strong> — 성장 기록에 사진을 직접 촬영하거나 갤러리에서 선택할 때 사용.</li>
+    <li><strong>알림 권한</strong> — 수확 예정일 7일 전·1일 전 로컬 알림 발송. 외부 서버를 사용하지 않는 기기 내 알림입니다.</li>
+  </ul>
+
+  <h2>4. 데이터 저장 및 삭제</h2>
+  <p>모든 기록은 사용자의 기기에만 저장됩니다. 다음 방법으로 언제든지 삭제할 수 있습니다.</p>
+  <ul>
+    <li>앱 내 "전체 비우기" 버튼으로 텃밭 데이터 삭제</li>
+    <li>성장 기록 개별 삭제</li>
+    <li>Android 설정 → 앱 → 우리집 텃밭 → 데이터 삭제</li>
+  </ul>
+
+  <h2>5. 외부 서비스</h2>
+  <p>본 앱은 다음 외부 서비스를 사용하며, 기능 제공을 위해 필요한 범위에서 네트워크 통신이 발생할 수 있습니다.</p>
+  <ul>
+    <li>
+      <strong>카카오맵 API</strong> — 텃밭 분양 정보 지도 표시에 사용됩니다.
+      카카오 개인정보처리방침: <a href="https://www.kakao.com/policy/privacy" target="_system">kakao.com/policy/privacy</a>
+    </li>
+    <li>
+      <strong>기상청 날씨 API</strong> — 현재 위치의 날씨 정보를 불러오는 데 사용됩니다.
+    </li>
+    <li>
+      <strong>농사로 API (농림수산식품교육문화정보원)</strong> — 텃밭 분양 정보를 불러오는 데 사용됩니다.
+    </li>
+  </ul>
+  <p>본 앱은 광고 식별자 기반 광고 SDK 및 사용자 행동 분석 SDK를 사용하지 않습니다.</p>
+
+  <h2>6. 아동 개인정보 보호</h2>
+  <p>본 앱은 13세 미만 아동을 대상으로 개인정보를 수집하지 않습니다. 어떠한 개인정보도 수집하지 않으므로 아동이 안전하게 이용할 수 있습니다.</p>
+
+  <h2>7. 방침 변경</h2>
+  <p>개인정보처리방침이 변경될 경우 본 페이지에서 공지하며, 상단의 최종 업데이트 날짜를 변경합니다.</p>
+
+  <h2>8. 개발사 정보</h2>
+  <ul>
+    <li>상호: 케이지에스 랩 (KGS Lab)</li>
+    <li>이메일: <a href="mailto:KGSLab.2026@gmail.com">KGSLab.2026@gmail.com</a></li>
+  </ul>
+
+  <h2>9. 문의</h2>
+  <p>개인정보처리방침에 관한 문의사항이 있으시면 아래 이메일로 연락해 주세요.</p>
+  <ul>
+    <li>개인정보 처리 담당: 케이지에스 랩 (KGS Lab)</li>
+    <li>이메일: <a href="mailto:KGSLab.2026@gmail.com">KGSLab.2026@gmail.com</a></li>
+  </ul>
+
+  <footer>
+    © 2026 케이지에스 랩 (KGS Lab) · 우리집 텃밭
+  </footer>
+
+</body>
+</html>
