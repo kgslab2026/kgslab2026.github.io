@@ -40,36 +40,9 @@
       padding-top: 14px;
     }
     a { color: #5b21b6; }
-    .close-bar {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      display: flex;
-      justify-content: flex-end;
-      margin: -8px -16px 16px;
-      padding: 10px 16px;
-      background: rgba(255, 255, 255, 0.95);
-      border-bottom: 1px solid #eee;
-      backdrop-filter: blur(6px);
-    }
-    .close-btn {
-      padding: 8px 18px;
-      border-radius: 999px;
-      border: 1px solid #7c3aed;
-      background: #f3ecff;
-      color: #5b21b6;
-      font-size: 14px;
-      font-weight: 600;
-      cursor: pointer;
-      font-family: inherit;
-    }
-    .close-btn:hover { background: #e9ddff; }
   </style>
 </head>
 <body>
-  <div class="close-bar">
-    <button type="button" class="close-btn" id="close-btn" aria-label="닫기">닫기</button>
-  </div>
   <h1>개인정보 처리방침</h1>
   <p class="meta">Tarot (타로) · 개발자: KGS Lab (kgslab2026) · 최종 업데이트: 2026년 5월 31일</p>
 
@@ -124,18 +97,5 @@
   <p>개인정보 처리방침 관련 문의: <a href="mailto:KGSLab.2026@gmail.com">KGSLab.2026@gmail.com</a></p>
 
   <p class="footer">© 2026 KGS Lab · Tarot (com.kgslab2026.tarot) · Google Play 등록용 개인정보 처리방침</p>
-  <script>
-    document.getElementById('close-btn').addEventListener('click', function () {
-      if (window.history.length > 1) {
-        window.history.back();
-        return;
-      }
-      if (window.opener) {
-        window.close();
-        return;
-      }
-      window.location.href = 'about:blank';
-    });
-  </script>
 </body>
 </html>
